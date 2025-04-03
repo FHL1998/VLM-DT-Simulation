@@ -1098,8 +1098,7 @@ class SimpleDTEnvironment:
                 if not other_bbox:
                     continue
 
-                # Now we have accurate bounding boxes for both objects in world space
-                # We can determine their spatial relationships
+                # accurate bounding boxes for both objects in world space to determine their spatial relationships
 
                 # Bounding box format: [min_x, min_y, min_z, max_x, max_y, max_z]
 
@@ -1549,11 +1548,7 @@ class SimpleDTEnvironment:
         # Define the objective function for optimization
         def objective_function(allocation_vector):
             """
-            Objective function to minimize:
-            Weighted sum of temperature, power, and load imbalance.
-
-            Args:
-                allocation_vector: Flattened allocation matrix representing CPU load for each device
+            Objective function to minimize: Weighted sum of temperature and load imbalance.
 
             Returns:
                 float: The weighted objective value to minimize
