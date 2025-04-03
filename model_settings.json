@@ -1,0 +1,59 @@
+{
+  "desk": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0, 0, 0],
+    "dimensions": [1.2, 0.6, 0.75]
+  },
+  "chair": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 90],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0, -0.8, 0],
+    "dimensions": [0.5, 0.5, 1.0]
+  },
+  "monitor": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [-0.3, 0, 0.75],
+    "dimensions": [0.6, 0.2, 0.4]
+  },
+  "laptop": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0.2, 0.2, 0.75],
+    "dimensions": [0.35, 0.25, 0.03]
+  },
+  "keyboard": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0.1, 0, 0.75],
+    "dimensions": [0.4, 0.15, 0.03]
+  },
+  "mouse": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0.25, 0, 0.75],
+    "dimensions": [0.1, 0.06, 0.03],
+    "custom_scale": 0.00001
+  },
+  "lamp": {
+    "base_alignment": ["center", "center", "min"],
+    "uniform_scale": true,
+    "initial_rotation": [0, 0, 0],
+    "final_rotation": [0, 0, 0],
+    "final_translation": [0.4, -0.2, 0.75],
+    "dimensions": [0.15, 0.15, 0.4]
+  }
+}
